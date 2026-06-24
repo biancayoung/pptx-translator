@@ -11,6 +11,12 @@ Under the hood, this tool uses `python-pptx` to safely modify slide text and the
 - **Progress Bar**: Shows a beautiful progress bar while translating text blocks.
 - **Caching**: Caches unique strings to minimize redundant translations.
 
+## Why I Built This & Privacy
+I built this tool to efficiently translate entire PowerPoint presentations all at once without having to manually copy-paste slides or rely on sketchy third-party online converter websites. 
+
+**Is it safe and local?** 
+Yes! Your `.pptx` file is processed **100% locally** on your machine. The app never uploads your PowerPoint file (or its images/designs) to any external server. It only extracts the raw text snippets and sends those strings securely to public translation APIs (like Bing or Google) to get the translated words back. This keeps your actual presentation files and proprietary layouts completely safe and private on your hard drive.
+
 ## Installation
 
 1. Clone or download this repository.
