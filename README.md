@@ -23,7 +23,16 @@ pip install -r requirements.txt
 
 ## Usage
 
-You can run the script directly from the terminal. 
+### Method 1: The Desktop App (Windows Only)
+For the easiest experience on Windows, you can use the included `run_translator.bat` script:
+1. Double-click `run_translator.bat`. A window will open asking you to paste the path to your `.pptx` file.
+2. **Alternatively**, you can drag and drop your `.pptx` file directly onto the `run_translator.bat` file to automatically start the translation!
+
+*(Tip: You can create a desktop shortcut to `run_translator.bat` so you can use it like a regular app from your desktop!)*
+
+### Method 2: Command Line Usage
+
+You can also run the script directly from the terminal for more advanced options:
 
 ```bash
 python pptx_translator.py --input <path_to_your_presentation.pptx>
