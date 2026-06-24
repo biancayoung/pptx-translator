@@ -63,7 +63,8 @@ python pptx_translator.py -i my_slides.pptx -t es -e google
 python pptx_translator.py -i my_slides.pptx -o translated_slides.pptx -f zh -t en
 ```
 
-## Limitations
+## Limitations & Disclaimer
+- **Manual Formatting Review Required**: Because text length varies heavily between languages (e.g., English text is often much longer than the original Chinese text), the translated words may overflow their original text boxes or overlap with other elements. You will likely need to open the translated presentation and manually adjust the font size and placement of some text to make it look perfect!
 - This tool does not translate text embedded inside images.
 - Free translation engines may impose rate limits. The tool includes a small delay between requests and a retry mechanism to mitigate this.
 
